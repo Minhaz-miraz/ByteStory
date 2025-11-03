@@ -1,6 +1,6 @@
 # 🧠 ByteStory — AI Powered Blogging Platform  
 
-![ByteStory Preview](https://postimg.cc/LhFD19d0)
+![ByteStory Preview](https://i.postimg.cc/NG5zZFdY/Screenshot-2025-11-03-171000.png)
 
 ---
 

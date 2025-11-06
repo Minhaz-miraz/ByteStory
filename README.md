@@ -1,6 +1,6 @@
 # 🧠 ByteStory — AI Powered Blogging Platform  
 
-![ByteStory Preview](https://i.postimg.cc/NG5zZFdY/Screenshot-2025-11-03-171000.png)
+![ByteStory Preview](https://res.cloudinary.com/djslk8o50/image/upload/v1762187869/Screenshot_2_bbw3a6.png)
 
 ---
 
@@ -66,3 +66,43 @@ ByteStory is a fullstack **Next.js** web application with built-in API routes, A
 - **Axios** – API requests and backend communication  
 
 ---
+
+## 🔒 Environment Variables
+
+Create a `.env` file in the project root and include the following variables:
+
+```env
+NODEMAILER_HOST=your_host
+NODEMAILER_PORT=your_port
+NODEMAILER_EMAIL=your_email
+NODEMAILER_PASSWORD=your_password
+
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+NODE_ENV=development
+
+RUBAID_GEMINI_API_KEY=your_key
+GEMINI_API_KEY=your_key
+NEWAZ_GEMINI_API_KEY=your_key
+
+CLOUDINARY_CLOUD_NAME=your_name
+CLOUDINARY_API_KEY=your_key
+CLOUDINARY_API_SECRET=your_secret
+
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_key
+STRIPE_SECRET_KEY=your_key
+STRIPE_WEBHOOK_SECRET=your_secret
+```
+---
+
+⚙️ Installation & Setup
+```bash
+Copy code
+# Clone repository
+git clone https://github.com/shahnewaz5646455/ByteStory.git
+cd bytestory
+npm install
+```
+# Run development server
+```npm run dev
+Then open 👉 http://localhost:3000
+```
